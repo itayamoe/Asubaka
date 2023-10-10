@@ -17,6 +17,9 @@ public class Main extends HttpServlet {
       HttpSession session = request.getSession();
       User loginUser = (User) session.getAttribute("loginUser");
       
+      
+      
+      
       if (loginUser == null) {
           // ログインしていない場合、ログインページにリダイレクト
           response.sendRedirect("index.jsp");
