@@ -8,18 +8,18 @@ User loginUser = (User) session.getAttribute("loginUser");
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ</title>
+<title>アスバカ</title>
 </head>
 </head>
 <body>
-<h1>どこつぶログイン</h1>
+<h1>アスバカログイン</h1>
 <% if(loginUser != null) { %>
 <p>ログインに成功しました</p>
 <p>ようこそ<%= loginUser.getName() %>さん</p>
-<a href="/docoTsubu/Main">つぶやき投稿・閲覧へ</a>
+<a href="/Asubaka/Main">つぶやき投稿・閲覧へ</a>
 <% } else { %>
 <p>ログインに失敗しました</p>
-<a href="/docoTsubu/">TOPへ</a>
+<a href="/Asubaka/">TOPへ</a>
 <% } %>
 </body>
 </html>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ - 新規登録完了</title>
+<title>アスバカ - 新規登録完了</title>
 </head>
 <body>
 <h1>新規登録が完了しました</h1>
@@ -14,7 +14,7 @@
 <hr> <!-- 水平線を追加 -->
 
 <!-- ログインへのリンク -->
-<a href="/docoTsubu/index.jsp">ログイン</a>
+<a href="/Asubaka/index.jsp">ログイン</a>
 
 </body>
 </html>

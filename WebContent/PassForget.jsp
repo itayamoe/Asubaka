@@ -3,13 +3,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ - パスワードリセット</title>
+<title>アスバカ - パスワードリセット</title>
 </head>
 <body>
 <h1>パスワードを忘れた場合</h1>
 
 <!-- パスワードリセットフォーム -->
-<form action="/docoTsubu/PasswordResetServlet" method="post">
+<form action="/Asubaka/PasswordResetServlet" method="post">
 メールアドレス：<input type="email" name="email"><br>
 <input type="submit" value="パスワードリセット">
 </form>
@@ -17,7 +17,7 @@
 <hr> <!-- 水平線を追加 -->
 
 <!-- ログインへのリンク -->
-<a href="/docoTsubu/index.jsp">ログイン</a>
+<a href="/Asubaka/index.jsp">ログイン</a>
 
 </body>
 </html>

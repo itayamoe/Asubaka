@@ -13,8 +13,8 @@ import jakarta.servlet.http.HttpServletResponse;
 
 public class RegisterServlet extends HttpServlet {
     private static final String JDBC_URL = "jdbc:mysql://172.16.0.178:3306/asubaka";
-    private static final String JDBC_USER = "root";
-    private static final String JDBC_PASSWORD = "adminadmin";
+    private static final String JDBC_USER = "sa";
+    private static final String JDBC_PASSWORD = "";
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -52,7 +52,7 @@ public class RegisterServlet extends HttpServlet {
 
             if (rowsAffected > 0) {
                 // 登録成功した場合、index.jsp にリダイレクト
-                response.sendRedirect("/docoTsubu/index.jsp");
+                response.sendRedirect("/Asubaka/index.jsp");
             } else {
                 // 登録に失敗した場合の処理を追加（例: エラーメッセージの表示）
             }

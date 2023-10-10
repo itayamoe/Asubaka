@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>どこつぶ - 新規登録</title>
+<title>アスバカ - 新規登録</title>
 <script>
   function validatePassword() {
     var password = document.getElementById("newPass").value;
@@ -23,7 +23,7 @@
 <h1>新規登録</h1>
 
 <!-- 新規登録フォーム -->
-<form action="/docoTsubu/RegisterServlet" method="post" onsubmit="return validatePassword();">
+<form action="/Asubaka/RegisterServlet" method="post" onsubmit="return validatePassword();">
 <!-- ニックネーム：<input type="text" name="nickname"><br> -->
 ユーザー名：<input type="text" name="newName"><br>
 パスワード：<input type="password" name="newPass" id="newPass"><br>
@@ -36,7 +36,7 @@
 <hr> <!-- 水平線を追加 -->
 
 <!-- ログインへのリンク -->
-<a href="/docoTsubu/index.jsp">ログイン</a>
+<a href="/Asubaka/index.jsp">ログイン</a>
 
 </body>
 </html>

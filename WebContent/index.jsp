@@ -10,18 +10,18 @@
 <h1>asubakaへようこそ</h1>
 
 <!-- ログインフォーム -->
-<form action="/docoTsubu/LoginServlet" method="post">
+<form action="/Asubaka/LoginServlet" method="post">
 ユーザー名：<input type="text" name="name"><br>
 パスワード：<input type="password" name="pass"><br>
 <input type="submit" value="ログイン">
 </form>
 
-<a href="/docoTsubu/PassForget.jsp">パスワードを忘れた方</a>
+<a href="/asubaka/PassForget.jsp">パスワードを忘れた方</a>
 
 <hr> <!-- 水平線を追加 -->
 
 <!-- 新規登録へのリンク -->
-<a href="/docoTsubu/Register.jsp">新規登録</a>
+<a href="/Asubaka/Register.jsp">新規登録</a>
 
 </body>
 </html>
