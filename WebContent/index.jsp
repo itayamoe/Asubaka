@@ -7,7 +7,7 @@
 <title>asubaka - ログイン</title>
 </head>
 <body>
-<h1>asubakaへようこそ</h1>
+<h1>asubakaへよこそ</h1>
 
 <!-- ログインフォーム -->
 <form action="/Asubaka/LoginServlet" method="post">
