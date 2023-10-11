@@ -19,7 +19,7 @@
 <a href="/Asubaka/PassForget.jsp">パスワードを忘れた方</a>
 
 <hr> <!-- 水平線を追加 -->
-
+ 
 <!-- 新規登録へのリンク -->
 <a href="/Asubaka/Register.jsp">新規登録</a>
 
